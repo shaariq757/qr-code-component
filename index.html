@@ -15,22 +15,22 @@
       top:10%;
       left: 50%;
       transform: translate(calc(-50%));
-      height: 70vh;
+      height: 68vh;
       text-align: center;
       width: 20%;
       background-color:#fff;
       padding: 1rem;
-      box-shadow:2px 2px 5px gray;
+      box-shadow:1px 1px 5px gray;
     }
     h2{
-      color: #073374f1;
+      color: hsl(218, 44%, 22%);
       font-weight:900;
       font-size:1.3rem;
       background-color: inherit;
     }
     p{
       font-weight:600;
-      color: rgba(0, 0, 0, 0.397);
+      color: hsl(220, 15%, 55%);
       background-color:inherit;
       font-size: .9rem;
     }
@@ -42,7 +42,7 @@
       border-radius: 20px;
       font-family:'Trebuchet MS', sans-serif;
       margin:0;
-      background-color:#c6d5e7c2;
+      background-color:hsl(212, 45%, 89%);
     }
     @media screen and (max-width:480px) {
       .container{
@@ -66,13 +66,13 @@
   </style>
 </head>
 <body>
-<div class="container">
+<div class="container" role="main">
   <img src="./images/image-qr-code.png" alt="">
-  <h2>Improve your front-end skills by building projects</h2>
+  <h2 role="heading">Improve your front-end skills by building projects</h2>
 
-  <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+  <p role="contentinfo">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
   </div>
-  <div class="attribution">
+  <div class="attribution" role="note">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Shaariq almaas</a>.
   </div>
